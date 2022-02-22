@@ -9,12 +9,15 @@ var car = {
     type: 'Honda', 
     model : 'Civic', 
     price : '25000', 
+    // object
     displayInfo : function(){ 
-        console.log(`${} has many models but ${} is $${}`); 
+        console.log(`${car.type} has many models but ${car.model} is $${car.price}`); 
+        // this is a method, this is a functional expression
     } 
 } 
 car.displayInfo();  
 
+// call the method
 </script>
 
 
